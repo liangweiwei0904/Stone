@@ -1,0 +1,5 @@
+<view wx:for="{{homelist}}" wx:key="index" class="border" bindtap="Todetail" data-id="{{item._id}}" >
+    <view>id:{{item._id}}</view>
+    <view>id:{{item.title}}</view>
+    <view >desc:{{item.desc}}</view>
+</view>

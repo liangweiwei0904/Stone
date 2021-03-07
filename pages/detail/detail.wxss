@@ -1,0 +1,11 @@
+.detail .collect text {
+  color: red;
+}
+.detail .tip {
+  color: darkslategray;
+  font-size: 100rpx;
+}
+.detail .pinglun {
+  border-bottom: 1px solid #648ada;
+  font-size: 32rpx;
+}

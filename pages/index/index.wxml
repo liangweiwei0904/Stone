@@ -1,0 +1,37 @@
+<input placeholder="请输入姓名" bindinput="add_name" />
+<input placeholder="请输入年龄" bindinput="add_age" />
+<button bindtap="handleADD">添加数据</button>
+<button bindtap="handleFind">查询数据</button>
+<input placeholder="请输入要删除的id" bindinput="handleId" />
+<button bindtap="handleDel">删除数据</button>
+<input placeholder="请输入要更新的id" bindinput="handleId" />
+<input placeholder="请输入更改后的年龄" bindinput="handleAge" />
+<button bindtap="handleUPD">修改数据</button>
+<button bindtap="qiuhe">云函数加法</button>
+<button bindtap="getopenid">获取用户的openid</button>
+<button bindtap="yunhanshu">云函数获取数据</button>
+<button bindtap="shujuku">数据库获取数据</button>
+<button bindtap="upload">上传图片</button>
+<!-- <image src="{{imgUrl}}" /> -->
+<button bindtap="uploadVideo" >上传视频</button>
+<!-- <video src="{{videoUrl}}" /> -->
+<button bindtap="uploadExcel">上传excel文件</button>
+<button bindtap="downloadExcel">下载excel文件</button>
+<button bindtap="outputList" >database遍历输出云函数数据库list数组中的数据</button>
+<view wx:for="{{List}}"class="list">
+    <view >
+        姓名：{{item.name}}
+    </view>
+    <view >
+        年龄：{{item._id}}
+    </view>
+</view>
+<button bindtap="YunList" >云函数遍历输出云函数数据库list数组中的数据</button>
+<view wx:for="{{list}}" wx:for-item="item1" class="list">
+    <view >
+        姓名：{{item1.name}}
+    </view>
+    <view >
+        年龄：{{item1._id}}
+    </view>
+</view>

@@ -1,0 +1,17 @@
+{
+  "pages":[
+    
+    "pages/homelist/homelist",
+    "pages/index/index",
+    "pages/100data/100data",
+    "pages/detail/detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+
+  "sitemapLocation": "sitemap.json"
+}

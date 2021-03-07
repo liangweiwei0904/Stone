@@ -1,0 +1,25 @@
+<view class="detail">
+    <view>id:{{detail._id}}</view>
+    <view>标题:{{detail.title}}</view>
+    <view>描述:{{detail.desc}}</view>
+    <view class="collect" bindtap="handleshoucang">
+        <text>收藏</text>
+        <text class="iconfont {{detail.shoucang?'iconshoucang':'iconshoucang1'}}"></text>
+    </view>
+    <view class="zan" bindtap="handledianzan">
+        <text>点赞</text>
+        <text class="iconfont {{detail.dianzan?'iconxihuan':'iconshoucang2'}}"></text>
+    </view>
+
+
+    <!-- 评论功能 -->
+    <view class="tip">评论区：</view>
+    <view wx:for="{{pinglun}}" wx:key="index" class="pinglun">
+        <view>{{item.name}}说：</view>
+        <view>{{item.content}}</view>
+    </view>
+
+    <!-- 发表评论 -->
+    <input placeholder="发表评论内容" bindinput="handleInput" value="{{content}}" />
+    <button bindtap="submit_remark" >发表</button>
+</view>

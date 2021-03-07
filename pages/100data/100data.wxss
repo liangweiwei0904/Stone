@@ -1,0 +1,4 @@
+.border{
+    border-bottom: 1px solid rgb(204, 138, 138);
+    height: 80rpx;
+}
