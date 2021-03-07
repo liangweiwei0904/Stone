@@ -1,10 +1,11 @@
 {
   "pages":[
-    
+    "pages/duanxin/duanxin",
     "pages/homelist/homelist",
     "pages/index/index",
     "pages/100data/100data",
-    "pages/detail/detail"
+    "pages/detail/detail",
+    "pages/user/user"
   ],
   "window":{
     "backgroundTextStyle":"light",
