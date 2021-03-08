@@ -1,0 +1,2 @@
+<button type="primary" bindtap="handleBTNpaihao" >开始排号</button>
+<text  >{{PaiHaoInfo}}</text>

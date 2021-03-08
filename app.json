@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/PGpaihao/PGpaihao",
     "pages/GroupSend/GroupSend",
     "pages/duanxin/duanxin",
     "pages/homelist/homelist",
