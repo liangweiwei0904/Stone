@@ -1,0 +1,6 @@
+<!--pages/GroupSend/GroupSend.wxml-->
+<text>请输入您要群发的内容，20字以内</text>
+<input bindinput="handleContent"  />
+<text >请输入您要群发的手机号，用*隔开</text>
+<textarea bindinput="handlePhoneNums" ></textarea>
+<button type="primary" bindtap="send">点击开始群发</button>

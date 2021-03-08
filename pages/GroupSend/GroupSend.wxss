@@ -1,0 +1,14 @@
+input{
+    margin-top: 20rpx;
+    padding: 15rpx;
+    border: solid 1rpx gray;
+    border-radius: 15rpx;
+    margin-bottom: 20rpx;
+}
+textarea{
+    margin-top: 20rpx;
+    padding: 20rpx;
+    border: solid 1rpx gray;
+    border-radius: 15rpx;
+    height: 600rpx;
+}
